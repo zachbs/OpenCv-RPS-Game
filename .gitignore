@@ -1,0 +1,16 @@
+# Python general
+__pycache__/
+*.pyc
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Virtual environment
+venv/
+*.env
+
+# === ADD THIS LINE ===
+# Machine Learning Models
+*.h5
