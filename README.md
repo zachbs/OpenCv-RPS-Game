@@ -45,6 +45,7 @@ Clone the repository:
 Bash
 
 git clone https://github.com/zachbs/OpenCv-RPS-Game.git
+
 Install dependencies:
 
 Bash
