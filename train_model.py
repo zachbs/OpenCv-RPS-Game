@@ -3,7 +3,7 @@ import os
 import matplotlib.pyplot as plt
 
 # --- Constants ---
-DATA_DIR = 'data'
+DATA_DIR = 'processed_data'
 IMG_HEIGHT = 150
 IMG_WIDTH = 150
 BATCH_SIZE = 32 # Number of images to process at a time
@@ -143,5 +143,5 @@ plt.suptitle('Model Training History')
 plt.show()
 
 # Save the model
-model.save('image_classification_model.h5')
+model.save('image_classification_model2.h5')
 
